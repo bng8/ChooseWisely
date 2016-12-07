@@ -32,9 +32,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
+                android:textAllCaps="false"
                 android:textColor="#000000"
-                android:text="EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT.EXAMPLE TEXT IS EXAMPLE TEXT. "/>
-            
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:text="You are on top of all your work, but you feel a little overworked, exhausted, and sad. It is okay to have fun sometimes!"/>
+
         </LinearLayout>
     </RelativeLayout>
 

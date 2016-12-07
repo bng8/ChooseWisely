@@ -32,8 +32,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
+                android:textAllCaps="false"
                 android:textColor="#000000"
-                android:text="EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT.EXAMPLE TEXT IS EXAMPLE TEXT. "/>
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:text="Not bad! You definitely could have worked a little bit more, but overall you are relatively on top of your work. B's get degrees!"/>
 
         </LinearLayout>
     </RelativeLayout>

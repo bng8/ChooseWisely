@@ -32,23 +32,32 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
+                android:textAllCaps="false"
                 android:textColor="#000000"
-                android:text="EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT.EXAMPLE TEXT IS EXAMPLE TEXT. "/>
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:text="Exercise always makes you feel good. Now do you do homework or have fun?"/>
 
             <Button
                 android:id="@+id/button_5b"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:backgroundTint="#B2DFDB"
-                android:text="A. Example TEXT"/>
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:text="Homework, definitely!"/>
             <Button
                 android:id="@+id/button_5c"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:backgroundTint="#B2DFDB"
-                android:text="B. Example Text"/>
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:text="I deserve to have a little fun!"/>
         </LinearLayout>
     </RelativeLayout>
 

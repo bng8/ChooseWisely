@@ -32,23 +32,32 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
+                android:textAllCaps="false"
                 android:textColor="#000000"
-                android:text="EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT. EXAMPLE TEXT IS EXAMPLE TEXT.EXAMPLE TEXT IS EXAMPLE TEXT. "/>
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:text="Since you missed class, do you go to office hours to make up for it?"/>
 
             <Button
                 android:id="@+id/button_4a"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:backgroundTint="#B2DFDB"
-                android:text="A. Example TEXT"/>
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:text="Yes, I definitely should go."/>
             <Button
                 android:id="@+id/button_4b"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:backgroundTint="#B2DFDB"
-                android:text="B. Example Text"/>
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:text="No, I got better things to do."/>
         </LinearLayout>
     </RelativeLayout>
 
