@@ -47,7 +47,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="You bet! Class is important!"/>
+                android:text="You bet! Class is important!"
+                android:onClick="open_Page_2a"/>
             <Button
                 android:id="@+id/button_1b"
                 android:layout_width="match_parent"
@@ -57,7 +58,8 @@
                 android:textSize="20sp"
                 android:layout_margin="5dp"
                 android:backgroundTint="#BDBDBD"
-                android:text="NOPE! Hit snooze so fast."/>
+                android:text="NOPE! Hit snooze so fast."
+                android:onClick="open_Page_2b"/>
          </LinearLayout>
     </RelativeLayout>
 
