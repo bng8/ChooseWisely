@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB"
+    tools:context="com.example.android.choosewisely.Page_1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                tools:ignore="ContentDescription"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/example_image"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:text="You smell terrible. But you did have time to get coffee before class. After class, do you work on PA3?"/>
+
+            <Button
+                android:id="@+id/button_3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#BDBDBD"
+                android:textColor="#212121"
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:text="You bet!"/>
+            <Button
+                android:id="@+id/button_3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#BDBDBD"
+                android:textColor="#212121"
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:text="Nah, I have plenty of time."/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

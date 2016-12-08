@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">ChooseWisely</string>
+
+    <string name="title_activity_page_1">Choice 1</string>
+
+    <string name="title_activity_page_2a">Choice 2</string>
+
+    <string name="title_activity_page_2b">Choice 2</string>
+
+    <string name="title_activity_page_3a">Choice 3</string>
+
+    <string name="title_activity_page_3b">Choice 3</string>
+
+    <string name="title_activity_page_3c">Choice 3</string>
+
+    <string name="title_activity_page_3d">Choice 3</string>
+
+    <string name="title_activity_page_4a">Choice 4</string>
+
+    <string name="title_activity_page_4b">Choice 4</string>
+
+    <string name="title_activity_page_4c">Choice 4</string>
+
+    <string name="title_activity_page_4d">Choice 4</string>
+
+    <string name="title_activity_page_5a">Choice 5</string>
+
+    <string name="title_activity_page_5b">Choice 5</string>
+
+    <string name="title_activity_page_5c">Choice 5</string>
+
+    <string name="title_activity_page_5d">Choice 5</string>
+
+    <string name="title_activity_page_5e">Choice 5</string>
+
+    <string name="title_activity_page_5f">Choice 5</string>
+
+    <string name="title_activity_page_6a">Choice 6</string>
+
+    <string name="title_activity_page_6b">Did you choose wisely?</string>
+
+    <string name="title_activity_page_6c">Did you choose wisely?</string>
+
+    <string name="title_activity_page_7a">Did you choose wisely?</string>
+
+    <string name="title_activity_page_7b">Did you choose wisely?</string>
+
+
 </resources>
