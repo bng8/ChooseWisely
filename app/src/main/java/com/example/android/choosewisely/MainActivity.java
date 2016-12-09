@@ -1,7 +1,9 @@
 package com.example.android.choosewisely;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -13,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    public void open_Page_1(View view){
+        Intent i = new Intent(this, Page_1.class);
+        startActivity(i);
+    }
 }
