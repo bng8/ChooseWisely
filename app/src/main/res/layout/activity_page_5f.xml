@@ -39,7 +39,7 @@
                 android:text="Crushing that new season of The Walking Dead! Are you still watching?"/>
 
             <Button
-                android:id="@+id/button_5d"
+                android:id="@+id/button_5c"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
