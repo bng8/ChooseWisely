@@ -48,7 +48,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="YES! #IWokeUpLikeThis"/>
+                android:text="YES! #IWokeUpLikeThis"
+                android:onClick="open_Page_3c"/>
             <Button
                 android:id="@+id/button_2d"
                 android:layout_width="match_parent"
@@ -59,7 +60,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="Meh. Might as well just skip."/>
+                android:text="Meh. Might as well just skip."
+                android:onClick="open_Page_3d"/>
         </LinearLayout>
     </RelativeLayout>
 

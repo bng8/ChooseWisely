@@ -48,7 +48,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="I could use a good nap."/>
+                android:text="I could use a good nap."
+                android:onClick="open_Page_5c"/>
             <Button
                 android:id="@+id/button_4d"
                 android:layout_width="match_parent"
@@ -59,7 +60,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="No time for a nap!"/>
+                android:text="No time for a nap!"
+                android:onClick="open_Page_5d"/>
         </LinearLayout>
     </RelativeLayout>
 

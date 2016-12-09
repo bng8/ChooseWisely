@@ -48,7 +48,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="You bet!"/>
+                android:text="You bet!"
+                android:onClick="open_Page_4a"/>
             <Button
                 android:id="@+id/button_3b"
                 android:layout_width="match_parent"
@@ -59,7 +60,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="Nah, I have plenty of time."/>
+                android:text="Nah, I have plenty of time."
+                android:onClick="open_Page_4b"/>
         </LinearLayout>
     </RelativeLayout>
 

@@ -48,7 +48,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="17sp"
-                android:text="Exercise! Work it out by working out!"/>
+                android:text="Exercise! Work it out by working out!"
+                android:onClick="open_Page_5e"/>
             <Button
                 android:id="@+id/button_4f"
                 android:layout_width="match_parent"
@@ -59,7 +60,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="Time for some Netflix!"/>
+                android:text="Time for some Netflix!"
+                android:onClick="open_Page_5f"/>
         </LinearLayout>
     </RelativeLayout>
 

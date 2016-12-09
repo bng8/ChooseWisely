@@ -48,7 +48,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="Move on. Not worth the stress."/>
+                android:text="Move on. Not worth the stress."
+                android:onClick="open_Page_4c"/>
             <Button
                 android:id="@+id/button_3d"
                 android:layout_width="match_parent"
@@ -59,7 +60,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="Lots of stress and self doubt."/>
+                android:text="Lots of stress and self doubt."
+                android:onClick="open_Page_4d"/>
         </LinearLayout>
     </RelativeLayout>
 

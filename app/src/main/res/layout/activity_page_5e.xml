@@ -48,7 +48,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="Homework, definitely!"/>
+                android:text="Homework, definitely!"
+                android:onClick="open_Page_6b"/>
             <Button
                 android:id="@+id/button_5c"
                 android:layout_width="match_parent"
@@ -59,7 +60,8 @@
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                android:text="I deserve to have a little fun!"/>
+                android:text="I deserve to have a little fun!"
+                android:onClick="open_Page_6c"/>
         </LinearLayout>
     </RelativeLayout>
 
