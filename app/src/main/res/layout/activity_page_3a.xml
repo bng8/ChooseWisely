@@ -36,7 +36,7 @@
                 android:textColor="#212121"
                 android:textSize="22sp"
                 android:textAlignment="center"
-                android:text="Nails done, hair done, everything did. Aced the pop quiz in class. Now to work on PA3?"
+                android:text="Nails done, hair done, everything did. Aced the pop quiz in class. Now to work on PA3?"/>
             <Button
                 android:id="@+id/button_3a"
                 android:layout_width="match_parent"

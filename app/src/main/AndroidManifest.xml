@@ -20,7 +20,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_1"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.MainActivity" />
@@ -30,7 +30,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_2a"
             android:parentActivityName=".Page_1"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_1" />
@@ -40,7 +40,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_2b"
             android:parentActivityName=".Page_1"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_1" />
@@ -50,7 +50,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_3a"
             android:parentActivityName=".Page_2a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_2a" />
@@ -60,7 +60,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_3b"
             android:parentActivityName=".Page_2b"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_2b" />
@@ -70,7 +70,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_3c"
             android:parentActivityName=".Page_2b"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_2b" />
@@ -80,7 +80,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_3d"
             android:parentActivityName=".Page_2b"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_2b" />
@@ -90,7 +90,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_4a"
             android:parentActivityName=".Page_3a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_3a" />
@@ -100,7 +100,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_4b"
             android:parentActivityName=".Page_3a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_3a" />
@@ -110,7 +110,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_4c"
             android:parentActivityName=".Page_3d"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_3d" />
@@ -120,7 +120,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_4d"
             android:parentActivityName=".Page_3d"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_3d" />
@@ -130,7 +130,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_5a"
             android:parentActivityName=".Page_4a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_4a" />
@@ -140,7 +140,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_5b"
             android:parentActivityName=".Page_4a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_4a" />
@@ -150,7 +150,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_5c"
             android:parentActivityName=".Page_4b"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_4b" />
@@ -160,7 +160,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_5d"
             android:parentActivityName=".Page_4b"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_4b" />
@@ -170,7 +170,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_5e"
             android:parentActivityName=".Page_4d"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_4d" />
@@ -180,7 +180,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_5f"
             android:parentActivityName=".Page_4d"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_4d" />
@@ -190,7 +190,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_6a"
             android:parentActivityName=".Page_5a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_5a" />
@@ -200,7 +200,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_6b"
             android:parentActivityName=".Page_5a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_5a" />
@@ -210,7 +210,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_6c"
             android:parentActivityName=".Page_5b"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_5b" />
@@ -220,7 +220,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_7a"
             android:parentActivityName=".Page_6a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_6a" />
@@ -230,7 +230,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_page_7b"
             android:parentActivityName=".Page_6a"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.Page_6a" />
