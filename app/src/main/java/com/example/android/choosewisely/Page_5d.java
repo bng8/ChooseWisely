@@ -25,21 +25,29 @@ public class Page_5d extends AppCompatActivity {
             Intent i = new Intent(this, Page_7a.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
         else if(score >= 4){
             Intent i = new Intent(this, Page_7b.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
         else if (score >= 2){
             Intent i = new Intent(this, Page_6b.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
         else{
             Intent i = new Intent(this, Page_6c.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
     }
 
@@ -50,21 +58,29 @@ public class Page_5d extends AppCompatActivity {
             Intent i = new Intent(this, Page_7a.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
         else if(score >= 4){
             Intent i = new Intent(this, Page_7b.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
         else if (score >= 2){
             Intent i = new Intent(this, Page_6b.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
         else{
             Intent i = new Intent(this, Page_6c.class);
             i.putExtra("int", score);
             startActivity(i);
+            Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+            startService(intentVibrate);
         }
     }
 }

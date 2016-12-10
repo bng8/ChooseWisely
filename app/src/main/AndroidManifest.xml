@@ -237,6 +237,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.choosewisely.MainActivity" />
         </activity>
+        <service android:name=".VibrateService"/>
     </application>
 
 </manifest>

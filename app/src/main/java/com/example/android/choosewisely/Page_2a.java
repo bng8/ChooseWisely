@@ -24,6 +24,8 @@ public class Page_2a extends AppCompatActivity {
         Intent i = new Intent(this, Page_3a.class);
         i.putExtra("int",score);
         startActivity(i);
+        Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+        startService(intentVibrate);
     }
 
     //on press of this button, passes score, and goes to next page
@@ -32,5 +34,7 @@ public class Page_2a extends AppCompatActivity {
         Intent i = new Intent(this, Page_3b.class);
         i.putExtra("int",score);
         startActivity(i);
+        Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
+        startService(intentVibrate);
     }
 }
