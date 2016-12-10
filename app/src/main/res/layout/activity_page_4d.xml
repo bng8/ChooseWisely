@@ -24,9 +24,14 @@
                 tools:ignore="ContentDescription"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/example_image"
+                android:src="@drawable/nitflex_4f"
                 android:layout_gravity="center"/>
-
+            <ImageView
+                tools:ignore="ContentDescription"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/shoes_4d"
+                android:layout_gravity="center"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
