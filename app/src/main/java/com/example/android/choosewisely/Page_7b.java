@@ -12,10 +12,11 @@ public class Page_7b extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_7b);
 
+        //gets score value from previous page and saves it to local score value.
         Bundle extras = getIntent().getExtras();
-
         score = extras.getInt("int",0);
 
+        //makes textview on this page show the score.
         TextView scoreText = (TextView) findViewById(R.id.score_text);
         scoreText.setText("Score: " + score);
     }

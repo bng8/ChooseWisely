@@ -13,11 +13,12 @@ public class Page_6a extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_6a);
 
+        //gets score from previous page, sets it to local score variable
         Bundle extras = getIntent().getExtras();
-
         score = extras.getInt("int",0);
     }
 
+    //on press of this button, increments score and goes to final page based on score
     public void open_Page_7a(View view){
         score += 1;
         if(score == 6) {
@@ -41,6 +42,8 @@ public class Page_6a extends AppCompatActivity {
             startActivity(i);
         }
     }
+
+    //on press of this button, goes to final page based on score
     public void open_Page_7b(View view){
         score += 0;
         if(score == 6) {

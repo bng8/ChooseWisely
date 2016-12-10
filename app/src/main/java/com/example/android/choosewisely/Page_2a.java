@@ -13,16 +13,20 @@ public class Page_2a extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_2a);
 
+        //gets score from previous page, sets it to local score value
         Bundle extras = getIntent().getExtras();
-
         score = extras.getInt("int",0);
     }
+
+    //on press of this button, increments score, passes score, and goes to next page
     public void open_Page_3a(View view){
         score += 1;
         Intent i = new Intent(this, Page_3a.class);
         i.putExtra("int",score);
         startActivity(i);
     }
+
+    //on press of this button, passes score, and goes to next page
     public void open_Page_3b(View view){
         score += 0;
         Intent i = new Intent(this, Page_3b.class);
