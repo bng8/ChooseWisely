@@ -34,9 +34,9 @@
                 android:layout_margin="20dp"
                 android:textAllCaps="false"
                 android:textColor="#212121"
-                android:textSize="23sp"
+                android:textSize="22sp"
                 android:textAlignment="center"
-                android:text="Everything makes sense again thanks to Allison! Time for some other homework?"/>
+                android:text="Everything makes sense again thanks to Allison! Time for some other work?"/>
 
             <Button
                 android:id="@+id/button_5a"

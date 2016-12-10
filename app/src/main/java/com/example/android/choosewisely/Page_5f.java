@@ -19,7 +19,7 @@ public class Page_5f extends AppCompatActivity {
     }
 
     public void open_Page_6b(View view){
-        score += 0;
+        score += 1;
         if(score == 6) {
             Intent i = new Intent(this, Page_7a.class);
             i.putExtra("int", score);
@@ -42,7 +42,7 @@ public class Page_5f extends AppCompatActivity {
         }
     }
     public void open_Page_6c(View view){
-        score += 1;
+        score += 0;
         if(score == 6) {
             Intent i = new Intent(this, Page_7a.class);
             i.putExtra("int", score);

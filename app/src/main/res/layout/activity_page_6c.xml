@@ -34,7 +34,7 @@
                 android:layout_margin="20dp"
                 android:textAllCaps="false"
                 android:textColor="#212121"
-                android:textSize="25sp"
+                android:textSize="23sp"
                 android:textAlignment="center"
                 android:text="You've only done half your homework. You really should not put off your responsibilities too much. It is maybe time to reprioritize?"/>
             <TextView
@@ -45,7 +45,7 @@
                 android:layout_margin="20dp"
                 android:textAllCaps="false"
                 android:textColor="#212121"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textAlignment="center"/>
         </LinearLayout>
     </RelativeLayout>

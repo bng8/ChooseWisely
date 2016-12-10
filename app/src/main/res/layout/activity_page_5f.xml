@@ -34,7 +34,7 @@
                 android:layout_margin="20dp"
                 android:textAllCaps="false"
                 android:textColor="#212121"
-                android:textSize="25sp"
+                android:textSize="22sp"
                 android:textAlignment="center"
                 android:text="Crushing that new season of The Walking Dead! Are you still watching?"/>
 
@@ -47,7 +47,7 @@
                 android:textColor="#212121"
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:text="YES! I must know what happens!"
                 android:onClick="open_Page_6c"/>
             <Button
@@ -59,7 +59,7 @@
                 android:textColor="#212121"
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:text="I better finally do some homework."
                 android:onClick="open_Page_6b"/>
         </LinearLayout>

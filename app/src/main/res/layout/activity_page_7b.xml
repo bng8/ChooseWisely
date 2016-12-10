@@ -34,7 +34,7 @@
                 android:layout_margin="20dp"
                 android:textAllCaps="false"
                 android:textColor="#212121"
-                android:textSize="25sp"
+                android:textSize="23sp"
                 android:textAlignment="center"
                 android:text="You are on top of your work and you had time for some fun. You have decent work-life balance. Go you! Keep it up!"/>
             <TextView
@@ -45,7 +45,7 @@
                 android:layout_margin="20dp"
                 android:textAllCaps="false"
                 android:textColor="#212121"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textAlignment="center"/>
         </LinearLayout>
     </RelativeLayout>

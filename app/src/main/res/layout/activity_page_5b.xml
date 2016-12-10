@@ -47,7 +47,7 @@
                 android:textColor="#212121"
                 android:layout_margin="5dp"
                 android:textAllCaps="false"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:text="No, I really should do homework."
                 android:onClick="open_Page_6b"/>
             <Button
