@@ -22,9 +22,11 @@
 
             <ImageView
                 tools:ignore="ContentDescription"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/bathtub_2a"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_gravity="center"/>
 
             <TextView

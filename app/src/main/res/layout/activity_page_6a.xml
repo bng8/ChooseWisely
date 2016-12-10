@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_margin="20dp">
 
         <LinearLayout
@@ -22,8 +22,10 @@
 
             <ImageView
                 tools:ignore="ContentDescription"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"
                 android:src="@drawable/cluttered_desk_6a"
                 android:layout_gravity="center"/>
 
