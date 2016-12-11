@@ -23,6 +23,7 @@ public class Page_6b extends AppCompatActivity {
         TextView scoreText = (TextView) findViewById(R.id.score_text);
         scoreText.setText("Score: " + score);
 
+        //media playback of tada.mp3 stored in raw resource file
         play = MediaPlayer.create(this, R.raw.tada);
         play.start();
     }

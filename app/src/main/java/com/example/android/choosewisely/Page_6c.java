@@ -22,6 +22,7 @@ public class Page_6c extends AppCompatActivity {
         TextView scoreText = (TextView) findViewById(R.id.score_text);
         scoreText.setText("Score: " + score);
 
+        //media playback of awwww.mp3 stored in raw resource file
         play = MediaPlayer.create(this, R.raw.awww);
         play.start();
     }

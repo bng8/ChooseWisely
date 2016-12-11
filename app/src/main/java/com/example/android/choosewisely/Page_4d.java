@@ -24,6 +24,7 @@ public class Page_4d extends AppCompatActivity {
         Intent i = new Intent(this, Page_5e.class);
         i.putExtra("int",score);
         startActivity(i);
+        //sets device to vibrate upon being called
         Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
         startService(intentVibrate);
     }
@@ -34,6 +35,7 @@ public class Page_4d extends AppCompatActivity {
         Intent i = new Intent(this, Page_5f.class);
         i.putExtra("int",score);
         startActivity(i);
+        //sets device to vibrate upon being called
         Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
         startService(intentVibrate);
     }
