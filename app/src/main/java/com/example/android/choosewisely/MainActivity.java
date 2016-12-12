@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
             while(cursor.moveToNext()) {
                 int idColumnIndex = cursor.getColumnIndex(ScoreContract.ScoreEntry._ID);
                 int scoreColumnIndex = cursor.getColumnIndex(ScoreContract.ScoreEntry.COLUMN_SCORE_VALUE);
-                int currentID = cursor.getInt(idColumnIndex);
                 int currentScoreToDisplay = cursor.getInt(scoreColumnIndex);
                 //take the value from the score column and use it to set the text in text view
                 scoreText.setText("Score: " + currentScoreToDisplay);
