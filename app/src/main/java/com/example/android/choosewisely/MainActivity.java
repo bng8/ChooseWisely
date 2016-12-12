@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 int scoreColumnIndex = cursor.getColumnIndex(ScoreContract.ScoreEntry.COLUMN_SCORE_VALUE);
                 int currentScoreToDisplay = cursor.getInt(scoreColumnIndex);
                 //take the value from the score column and use it to set the text in text view
-                scoreText.setText("Score: " + currentScoreToDisplay);
+                scoreText.setText("Previous Score: " + currentScoreToDisplay);
             }
         } finally {
             //close cursor to prevent memory leaks
