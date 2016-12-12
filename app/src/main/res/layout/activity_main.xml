@@ -20,6 +20,19 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"/>
 
+    <TextView
+        android:id="@+id/score_text_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:textAllCaps="false"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
     <Button
         android:id="@+id/button_0"
         android:layout_width="wrap_content"
