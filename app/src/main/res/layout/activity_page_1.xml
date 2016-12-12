@@ -62,6 +62,7 @@
                 android:textSize="20sp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
                 android:background="#BDBDBD"
                 android:text="NOPE! Hit snooze so fast."
                 android:onClick="open_Page_2b"/>
