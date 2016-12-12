@@ -23,3 +23,9 @@ Run the app from Android Studio as follows:
 
 In Android Studio, select your project and click Run  from the toolbar.
 In the Select Deployment Target window, select your emulator and click OK.
+
+Wait for the emulator to load and for the app to generate.
+
+Make sure to keep the volume of your device on!
+
+Once the app appears on the screen, select the "Begin!" button to begin, and then read the prompt provided to you, so that you may choose and click one of the two options, presented in the form of buttons. Repeat the process of reading the prompt and selecting an option until you reach a final page that will display a score. After having completed your adventure, restart the app by clicking on the arrow button in the top left corner of the action bar. You will be able to see the score of your previous attempt and then start a new adventure! Your adventure awaits!
