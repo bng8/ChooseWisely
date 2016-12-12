@@ -14,12 +14,13 @@ import android.support.annotation.Nullable;
 public class VibrateService extends Service
 {
     @Override
-    public void onStart(Intent intent, int startID)
+    public int onStartCommand(Intent intent, int flags, int startID)
     {
         //create vibrator and call device to vibrate for 500 ms
-        super.onStart(intent,startID);
+        super.onStartCommand(intent,flags,startID);
         Vibrator v = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
         v.vibrate(500);
+        return flags;
     }
 
     @Nullable
